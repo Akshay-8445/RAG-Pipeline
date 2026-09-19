@@ -5,34 +5,19 @@ A local Retrieval-Augmented Generation (RAG) application that loads PDF document
 Features
 
 Loads multiple PDF documents automatically
-
 Splits document content into overlapping chunks
-
 Generates local embeddings with nomic-embed-text
-
 Stores and retrieves vectors using ChromaDB
-
 Generates answers with the local llama3.1 model
-
 Runs locally without requiring a paid API key
-
 Uses a simple command-line interface
-
 RAG Workflow
-
 PDF documents are loaded from Data/PDF_File.
-
 The text is divided into smaller overlapping chunks.
-
 Ollama generates an embedding for each chunk.
-
 ChromaDB stores the chunks and their embeddings.
-
 The user's question is converted into an embedding.
 
-The most relevant document chunks are retrieved.
-
-Llama 3.1 generates an answer using the retrieved context.
 
 Technology Stack
 Python 3.11
