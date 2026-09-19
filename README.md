@@ -1,5 +1,5 @@
-#Local RAG Pipeline with Ollama and ChromaDB
-
+#🤖Local RAG Pipeline with Ollama and ChromaDB
+---
 A local Retrieval-Augmented Generation (RAG) application that loads PDF documents, splits them into smaller chunks, creates embeddings with Ollama, stores the vectors in ChromaDB, retrieves relevant content, and generates document-based answers using Llama 3.1.
 
 Features
@@ -42,7 +42,7 @@ Llama 3.1
 Nomic Embed Text
 ChromaDB
 PyPDF
-
+```
 Project Structure
 
 RAG Pipeline/
@@ -58,8 +58,7 @@ RAG Pipeline/
 ├── requirements.txt
 └── README.md
 
-
-
+```
 
 The application displays the following menu:
 
@@ -69,6 +68,8 @@ The application displays the following menu:
 
 Choose option 1 first to index the documents. After indexing finishes, choose option 2 and enter a question.
 
+---
+
 Add Your Own Documents
 
 Copy PDF files into Data/PDF_File.
@@ -76,7 +77,7 @@ Start the application with python main.py.
 Select option 1 to index the documents.
 Select option 2 to ask questions about them.
 
-
+---
 Make sure the documents are stored inside:
 
 Data/PDF_File
@@ -86,7 +87,8 @@ Privacy and Cost
 
 The language model and embedding model run locally through Ollama. No paid API key is required. The documents remain on the local computer unless the project is deliberately connected to an external service.
 
-##Future Improvements
+---
+#Future Improvements
 
 Add a Streamlit web interface
 Support DOCX, TXT, and CSV files
@@ -95,15 +97,16 @@ Add conversation history
 Prevent duplicate indexing
 Add document upload and database-reset controls
 
-
+---
 ### RAG Question and Answer
 
 ![RAG Query Result]<img width="1920" height="1200" alt="Screenshot 2026-09-19 193235" src="https://github.com/user-attachments/assets/50907bf5-ea19-44a3-a2f6-04af0e41c191" />
 
+---
 Author
 
 Akshay Pal
-B.Tech Computer Science and Engineering (Artificial Intelligence)
+Linkedin: https://www.linkedin.com/in/akshay-pal-60115b286/
 
 License
 
