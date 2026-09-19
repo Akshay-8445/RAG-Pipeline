@@ -108,6 +108,3 @@ Author
 Akshay Pal
 Linkedin: https://www.linkedin.com/in/akshay-pal-60115b286/
 
-License
-
-This project is intended for learning and educational use.#
