@@ -19,14 +19,6 @@ ChromaDB stores the chunks and their embeddings.
 The user's question is converted into an embedding.
 
 
-Technology Stack
-Python 3.11
-LangChain
-Ollama
-Llama 3.1
-Nomic Embed Text
-ChromaDB
-PyPDF
 ```
 Project Structure
 
